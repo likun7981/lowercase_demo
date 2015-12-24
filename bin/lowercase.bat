@@ -1,0 +1,1 @@
+node.exe lowercase %1
