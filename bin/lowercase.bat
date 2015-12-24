@@ -1,1 +1,1 @@
-node.exe lowercase %1
+node.exe bin/lowercase %1

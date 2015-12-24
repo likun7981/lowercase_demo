@@ -1,21 +1,13 @@
 {
   "name": "lowercase_demo_likun7981",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "a demo package for lowercase",
-  "keywords":[
-    "demo","lowercase"
-  ],
+  "keywords":["demo","lowercase"],
   "main": "lowercase.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "directories": {"test": "test"},
+  "bin": {"lowercase": "./bin/lowercase"},
+  "scripts": {"test": "echo \"Error: no test specified\" && exit 1"},
   "author": "likun",
   "license": "MIT",
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/likun7981/lowercase_demo"
-  }
+  "repository":{"type":"git","url":"https://github.com/likun7981/lowercase_demo"}
 }
